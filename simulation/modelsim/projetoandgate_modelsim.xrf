@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/15647503/LD/projetoandgate.bdf
+source_file = 1, C:/Users/15647503/LD/Waveform.vwf
+source_file = 1, C:/Users/15647503/LD/db/projetoandgate.cbx.xml
+design_name = projetoandgate
+instance = comp, \Y~output\, Y~output, projetoandgate, 1
+instance = comp, \B~input\, B~input, projetoandgate, 1
+instance = comp, \A~input\, A~input, projetoandgate, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, projetoandgate, 1

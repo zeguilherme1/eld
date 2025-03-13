@@ -1,0 +1,83 @@
+$comment
+	File created using the following command:
+		vcd file projetoandgate.msim.vcd -direction
+$end
+$date
+	Thu Mar 13 20:21:55 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module projetoandgate_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var wire 1 # Y $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 + B~input_o $end
+$var wire 1 , A~input_o $end
+$var wire 1 - inst~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+0,
+0-
+$end
+#500000
+1!
+1,
+#1000000
+1"
+0!
+1+
+0,
+#1500000
+1!
+1,
+1-
+1#
+#2000000
+0"
+0!
+0+
+0,
+0-
+0#
+#2500000
+1!
+1,
+#3000000
+1"
+0!
+1+
+0,
+#3500000
+1!
+1,
+1-
+1#
+#4000000
